@@ -37,7 +37,7 @@ export default function Home({login,handlelogin}:HomeProperty) {
       </div>
       <div className="w-[900px] h-fit bg-white flex-col border">
         <div
-          className="flex flex-row justify-between border cursor-pointer duration-500 hover:bg-purple-300"
+          className="flex flex-row h-[800px] items-center  justify-between border cursor-pointer duration-500 hover:bg-purple-300"
           onClick={() => {
             router.push("/reader/");
           }}
@@ -46,7 +46,7 @@ export default function Home({login,handlelogin}:HomeProperty) {
           <div className="w-[300px] h-[200px]">작가 설명</div>
           <div className="grow w-[200px] h-[200px]">게임 설명</div>
         </div>
-        <div className="flex flex-row justify-between border cursor-pointer duration-500 hover:bg-purple-300"
+        <div className="flex flex-row h-[800px] items-center justify-between border cursor-pointer duration-500 hover:bg-purple-300"
         onClick={() => {
           router.push("/reader/");
         }}>
@@ -54,7 +54,7 @@ export default function Home({login,handlelogin}:HomeProperty) {
           <div className="w-[300px] h-[200px]">작가 설명</div>
           <div className="grow w-[200px] h-[200px]">게임 설명</div>
         </div>
-        <div className="flex flex-row justify-between border cursor-pointer duration-500 hover:bg-purple-300"
+        <div className="flex flex-row h-[800px] items-center justify-between border cursor-pointer duration-500 hover:bg-purple-300"
         onClick={() => {
           router.push("/reader/");
         }}>
@@ -62,7 +62,7 @@ export default function Home({login,handlelogin}:HomeProperty) {
           <div className="w-[300px] h-[200px]">작가 설명</div>
           <div className="grow w-[200px] h-[200px]">게임 설명</div>
         </div>
-        <div className="flex flex-row justify-between border cursor-pointer duration-500 hover:bg-purple-300"
+        <div className="flex flex-row h-[800px] items-center justify-between border cursor-pointer duration-500 hover:bg-purple-300"
         onClick={() => {
           router.push("/reader/");
         }}>
